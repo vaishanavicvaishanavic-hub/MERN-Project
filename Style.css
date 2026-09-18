@@ -1,0 +1,96 @@
+body{
+    font-family: Arial;
+    background-color: beige;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#main-heading{
+    color:aqua;
+}
+
+.details{
+    background-color: white;
+}
+header{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color:rgb(103, 14, 14);
+    text-decoration: wavy;
+    margin: 15px;
+}
+
+nav a:hover{
+    color:blue;
+}
+main{
+    width:80%;
+    margin: 20px auto;
+}
+
+section{
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+input,select,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ button{
+    background-color: green;
+    color: white;
+    padding: 12px 25px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+ }
+
+main{
+    display: flex;
+    gap:28px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+main section{
+    flex: 2 1 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: crimson;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+Nav a{
+    margin: 0;
+    text-decoration: none;
+}
+@media(max-width: 700px){
+    main{
+        flex-direction: column;
+    }
+    main section,
+    main artical,
+    main aside{
+        width: 100%;
+    }
+} 
