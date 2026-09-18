@@ -1,26 +1,78 @@
-.app{
+/* .app{
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 24px;
-  background-color: rgb(255, 247, 240);
+  background-color: #f0f0f0;
 }
-
 .welcome-card{
   width: 100%;
   max-width: 650px;
   padding: 32px;
   border-radius: 16px;
-  background-color: rgb(136, 124, 54);
-  box-shadow: 0 10px 25px pink ;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(30,64,175,0.15);
 }
 h1{
   margin-top: 8px;
-  color: blue;
+  color:darkgreen;
 }
-
 .day-lable{
+  margin:0;
+  color: #666;
+  font-weight: bold;
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+  background-color: #be3b3b;
+  color: #fff;
+}
+.navbar h2{
   margin: 0;
-  color: blueviolet;
+ }
+ .nav-links a{
+  color: aqua;
+  text-decoration: none;
+ }
+ .nav-links a:hover{
+  color: brown;
+ }
+ \.hero{
+  padding:100px 8%;
+  background: linear-gradient(135deg,#541725,#2563eb);
+  color:white;
+}
+.hero-label{
+  margin:0;
+  color:#be3c95;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hero h1{
+  max-width: 750px;
+  margin:12px 0;
+  font-size: 48px;
+}
+.hero-description{
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.hero-button{
+  display: inline block;
+  margin-top: 20px;
+  padding:12px 20px;
+  border-radius: 6px;
+  background-color: white;
+  color:#b0be1d;
+  font-weight: bold;
+  text-decoration: none;
+
 }
