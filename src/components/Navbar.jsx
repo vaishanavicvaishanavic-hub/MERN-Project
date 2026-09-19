@@ -14,6 +14,8 @@
 //         </nav>
 //     );
 // }
+// export default Navbar;
+
 function Navbar(){
     return(
         <nav className="navbar">
